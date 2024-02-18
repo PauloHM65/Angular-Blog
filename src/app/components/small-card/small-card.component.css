@@ -9,11 +9,14 @@
 
 .small-card__picture {
     box-sizing: border-box;
-
+    width: 180px;
+    margin-right: 30px;
 }
 
 .small-card__picture img {
+    box-sizing: border-box;
     width: 100%;
+
 }
 
 .small-card__tittle {
