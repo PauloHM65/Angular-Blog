@@ -6,6 +6,9 @@ import { Component, Input, OnInit } from '@angular/core';
   styleUrls: ['./big-card.component.css']
 })
 export class BigCardComponent implements OnInit {
+
+  @Input()
+  id:string = ""
   
   photoCover:string = "https://designconceitual.com.br/wp-content/uploads/2023/12/Angular-novo-logotipo-2023-1000x600.jpg"
 

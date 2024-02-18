@@ -19,10 +19,3 @@
     flex-direction: column;
     justify-content: space-between;
 }
-
-header{
-    margin: 20px 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
