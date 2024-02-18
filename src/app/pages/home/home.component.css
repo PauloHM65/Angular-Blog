@@ -1,0 +1,28 @@
+.articles{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+
+}
+.articles__main{
+    box-sizing: border-box;
+    width: 50%;
+    margin: 0 10px;
+
+}
+
+.article__others{
+    box-sizing: border-box;
+    width: 50%;
+    margin: 0 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+header{
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

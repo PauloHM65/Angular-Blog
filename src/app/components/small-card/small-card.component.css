@@ -1,0 +1,23 @@
+.small-card__container a{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-bottom: 2px solid rgba(199, 199, 199, 0.144);
+
+}
+
+.small-card__picture {
+    box-sizing: border-box;
+
+}
+
+.small-card__picture img {
+    width: 100%;
+}
+
+.small-card__tittle {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
